@@ -12,7 +12,6 @@ header {
   text-align: right;
   margin-top: 0;
   position: fixed;
-  
 }
 
 a {
@@ -37,7 +36,7 @@ header > .menu-right {
 
 header > div > .menu {
   margin: 20px 10px;
-  font-weight: 800;	
+  font-weight: 800;
 }
 
 header > .menu-left {
@@ -47,7 +46,7 @@ header > .menu-left {
 
 header > div > .menu1 {
   margin: 20px 10px;
-  font-weight: 800;	
+  font-weight: 800;
 }
 
 .menu:hover {
@@ -68,7 +67,7 @@ header > div > .menu1 {
 
 #section1 > div > h1 {
 	font-size: 80px;
-	margin-top: 0;	
+	margin-top: 0;
 }
 
 #section1 > div > p {
@@ -79,6 +78,11 @@ header > div > .menu1 {
   margin-top: 0px;
 }
 
+hr {
+	width: 350px;
+	text-align: center;
+}
+
 #section2 {
   background-color: white;
   text-align: center;
@@ -87,17 +91,12 @@ header > div > .menu1 {
   font-family: "Lato";
   font-size: 35px;
   margin-top: 80px;
-
-
- outline: 1px solid red;
 }
 
 #section2 img {
   display: inline-block;
   float: left;
   margin: 10px 10px;
-  margin-left: 55px;
-  
 }
 
 #section2 img {
@@ -105,9 +104,13 @@ header > div > .menu1 {
  height: 200px;
 }
 
+#section2 > .img-section2 {
+	margin-left: 210px;
+}
+
 #section3 {
   background-color: #18bc9c;
-  height: 500px;
+  height: 550px;
   font-family: "Montserrat";
   text-align: right;
 }
@@ -118,5 +121,76 @@ header > div > .menu1 {
   font-family: "Montserrat";
   font-size: 50px;
 }
-  
 
+.text-right {
+	display: inline-block;
+	height: 600px;
+	width: 400px;
+	font-size: 25px;
+	color: white;
+	font-family: "Lato";
+	text-align: left;
+	float: right;
+}
+
+#section3 > .text-section3 {
+	width: 350px;
+	text-align: center;
+	color: white;
+}
+.text-left {
+	display: inline-block;
+	height: 600px;
+	width: 400px;
+	font-size: 25px;
+	color: white;
+	font-family: "Lato";
+	text-align: left;
+	float: left;
+}
+
+.text-left {
+	margin-left: 250px;
+}
+
+.text-right {
+	margin-right: 250px;
+}
+
+#section4 {
+	outline: 1px solid red;
+}
+
+#section4 {
+	color: #2c3e50;
+	font-family: "Lato";
+	height: 600px;
+}
+
+.text-section4 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	font-size: 22px;
+	margin-left: 250px;
+	color: gray;
+}
+
+li {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.list-section4  hr {
+	width: 800px;
+	margin-right: 300px;
+	color: gray:
+}
+
+.titles-section5 {
+	display: inline-block;
+}
