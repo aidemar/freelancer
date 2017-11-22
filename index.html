@@ -1,7 +1,7 @@
 <!-- Agrega aquí la estructura HTML de tu sitio web -->
 
 <!DOCTYPE html>
-	<html lang="en">
+<html lang="en">
 <html>
 <head>
 	<meta charset="utf-8">
@@ -10,18 +10,22 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'/>
 	<title>Freelancer</title>
 </head>
+
 <body>
-	<header>
-		<div class="menu-left">
+	<!-- Inicia barra de navegación-->
+	<nav>
+		<header>
+			<div class="menu-left">
         	<a class="menu1">START BOOTSTRAP</a>
-      	</div>
-      	<div class="menu-right">
+      </div>
+      <div class="menu-right">
       		<a class="menu" href="#">PORTAFOLIO</a>
         	<a class="menu" href="#">ABOUT</a>
         	<a class="menu" href="#">CONTACT</a>
-      	</div>
-	</header>
-
+      </div>
+		</header>
+	</nav>
+<!-- Inicia sección 1 [Principal] -->
 	<section id="section1">
 	  <div>
 			<img src="assets/images/profile.png">
@@ -32,86 +36,94 @@
 			<p class="mt-0">Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</section>
-
-<section id="section2">
- <div class="text-section2">
-	 <p>PORTAFOLIO</p>
-  </div>
-
-	<div class="img-section2">
-		<div>
-			<a href="https://blackrockdigital.github.io/startbootstrap-freelancer/" target="_blank"><img src="assets/images/cabin.png"></a>
+<!-- Inicia sección 2 [Portafolio] -->
+	<section id="section2">
+ 			<div class="text-section2">
+	 			<p>PORTAFOLIO</p>
+  		</div>
+			<div class="img-section2">
+			<div>
+				<!-- Intento de direccionar la imagen a una nueva página con un anchor -->
+				<a href="https://blackrockdigital.github.io/startbootstrap-freelancer/" target="_blank"><img src="assets/images/cabin.png"></a>
+			</div>
+			<div>
+				<img src="assets/images/cake.png">
+			</div>
+			<div>
+				<img src="assets/images/circus.png">
+			</div>
+			<div>
+				<img src="assets/images/game.png">
+			</div>
+			<div>
+				<img src="assets/images/safe.png">
+			</div>
+			<div>
+				<img src="assets/images/submarine.png">
+			</div>
 		</div>
-		<div>
-			<a href=""></a><img src="assets/images/cake.png">
+	</section>
+<!-- Inicia seccion 3 [About] -->
+	<section id="section3">
+			<div>
+				<h1 class="text-section3">ABOUT</h1>
+				<hr>
+				<i class="fa fa-star fa-3x" atria-hidden="true"></i>
+				</hr>
+			</div>
+			<div class="text-left">
+				<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+			</div>
+			<div class="text-right">
+				<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+			</div>
 		</div>
-		<div>
-			<img src="assets/images/circus.png">
+	</section>
+<!-- Inicia seccion 4 [Contact me] -->
+	<section id="section4">
+		<div class="text-section4">
+			<h2>CONTACT ME</h2>
 		</div>
-		<div>
-			<img src="assets/images/game.png">
+		<div class="list-section4">
+			<ul>
+				<li>Name</li>
+				<hr>
+				<li>Email Adress</li>
+				<hr>
+				<li>Phone Number</li>
+				<hr>
+				<li>Message</li>
+				<hr>
+			</ul>
 		</div>
-		<div>
-			<img src="assets/images/safe.png">
-		</div>
-		<div>
-			<img src="assets/images/submarine.png">
-		</div>
-	</div>
-</section>
-
-<section id="section3">
-	<div>
-		<div>
-		<h1 class="text-section3">ABOUT</h1>
-		<hr>
-			<i class="fa fa-star fa-3x" atria-hidden="true"></i>
-		</hr>
-		</div>
-		<div class="text-left">
-			<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-		</div>
-		<div class="text-right">
-			<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-		</div>
-	</div>
-</section>
-
-<section id="section4">
-	<div class="text-section4">
-		<h2>CONTACT ME</h2>
-	</div>
-	<div class="list-section4">
-		<ul>
-			<li>Name</li>
-			<hr>
-			<li>Email Adress</li>
-			<hr>
-			<li>Phone Number</li>
-			<hr>
-			<li>Message</li>
-			<hr>
-		</ul>
-	</div>
-</section>
-
-<section id="section5">
- <div class="title1">
-	<p class="location">LOCATION</p>
-	<p class="adress">3481 Melrose Place
-Beverly Hills, CA 90210</p>
- </div>
-
-<div class="title2">
-	 <p class="around-the-world">AROUND THE WORLD</p>
-	 <img>
- </div>
-
-  <div class="title3">
-		<p class="about-freelancer">ABOUT FREELANCER</p>
-  </div>
-</section>
-
-
+	</section>
+	<!-- Inicia seccion 5 y 6 [Footer] -->
+<footer>
+	<section id="section5">
+ 		<div class="title1">
+			<p class="location">LOCATION</p>
+			<p class="adress">3481 Melrose Place Beverly Hills, CA 90210</p>
+ 		</div>
+		<div class="title2">
+	 		<p class="about-freelancer">ABOUT FREELANCER</p>
+	 		<p class= "created-by">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+ 		</div>
+		<div class="title3">
+	 	<div class="around-the-web">
+				<p >AROUND THE WEB</p>
+			</div>
+			<div class="icons">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-google-plus" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-futbol-o" aria-hidden="true"></i>
+			</div>
+  	</div>
+	</section>
+	<section id="section6">
+		<p class="copyright">Copyright © Your Website 2017</p>
+	</section>
+</footer>
 </body>
 </html>

@@ -1,9 +1,10 @@
-/*
- * Estilos de tu proyecto
- */
+/*El orden para intentar no perderme en la hoja de estilos
+es por secciones. En total una barra de navegación y seis secciones */
 body {
 	margin: 0 auto;
 }
+
+/* Inicia barra de navegación*/
 header {
   background-color: #2c3e50;
   font-family: "Montserrat";
@@ -53,6 +54,7 @@ header > div > .menu1 {
 	color: #18bc9c;
 }
 
+/*Inicia primera sección [Principal] */
 #section1 {
 	background-color: #18bc9c;
 	text-align: center;
@@ -83,6 +85,7 @@ hr {
 	text-align: center;
 }
 
+/*Inicia sección dos [Portafolio]*/
 #section2 {
   background-color: white;
   text-align: center;
@@ -108,6 +111,7 @@ hr {
 	margin-left: 210px;
 }
 
+/*Inicia seccion tres [About]*/
 #section3 {
   background-color: #18bc9c;
   height: 550px;
@@ -157,20 +161,23 @@ hr {
 	margin-right: 250px;
 }
 
-#section4 {
-	outline: 1px solid red;
-}
-
+/*Inicio sección 4 [Contact me]*/
 #section4 {
 	color: #2c3e50;
 	font-family: "Lato";
 	height: 600px;
+	margin-top: 20px;
 }
 
 .text-section4 {
 	font-size: 30px;
 	text-align: center;
 	margin-top: 0;
+}
+
+#section4 h2 {
+	margin:0;
+	padding: 0;
 }
 
 ul {
@@ -189,4 +196,84 @@ li {
 	width: 800px;
 	margin-right: 300px;
 	color: gray:
+}
+
+/*Inicia sección 5 [Footer]*/
+#section5 {
+	font-family: "Montserrat";
+	background-color: #2c3e50;
+	height: 300px;
+	color: white;
+	font-weight: 300px;
+}
+
+
+#section5 > div {
+	display: inline-block;
+}
+
+.title1 {
+	margin-left: 120px;
+	margin-right: 20px;
+	margin-top: 40px;
+	float: left;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+}
+.location {
+	font-size: 25px;
+}
+.adress {
+	font-size: 20px;
+}
+
+.title2 {
+	margin-left: 60px;
+	margin-top: 40px;
+	float: center;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+}
+
+.title3 {
+	font-size: 25px;
+	margin-right: 40px;
+	margin-top: 40px;
+	float: left;
+	width: 300px;
+	height: 400px;
+	text-align: right;
+}
+
+.about-freelancer {
+	font-size: 25px;
+}
+
+.created-by {
+	font-size: 20px;
+}
+
+.icons {
+	margin-right: 40px;
+	font-size: 30px;
+}
+
+#section6 {
+	height: 80px;
+	background-color: #212529;
+	color: white;
+	font-family: "Lato";
+	margin: 0;
+	padding: 0;
+}
+
+.copyright {
+	text-align: center;
+}
+
+#section6 p {
+	margin: 0;
+	padding: 0;
 }
